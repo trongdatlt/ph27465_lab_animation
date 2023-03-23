@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_margin="10dp"
+        />
+    <LinearLayout
+
+        android:id="@+id/ln_taikhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tài Khoản"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_taikhoan"
+            />
+
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+
+
+      >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          />
+      <LinearLayout
+
+          android:id="@+id/ln_matkhau"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+
+          >
+
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Mật Khẩu"
+              android:textSize="20sp" />
+          <EditText
+              android:layout_width="200dp"
+              android:layout_height="wrap_content"
+              android:id="@+id/ed_matkhau"
+              />
+
+
+      </LinearLayout>
+  </LinearLayout>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
